@@ -1,0 +1,146 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
+h1{
+    padding: 10px;
+}
+h1, h2, .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-navbar {
+    background-color: #232B2B;/* Replace 'yourcolor' with your desired color code */
+    color: white;
+    
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+#new-post-title {
+    margin-top: 10px;
+    font-size: 35px; /* Increase the font size */
+    color: #232B2B; /* Button background color */
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+.my-custom-content-class {
+    width: 50%; /* Adjust the width to your desired size */
+    height: 125px;
+    border-radius: 10px;
+     /* Adjust the height to make it larger */
+  }
+
+.post-button {
+    background-color: #232B2B; /* Set the background color to #232B2B */
+    color: white; /* Set the text color to white */
+    font-size: 18px; /* Adjust the font size */
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 5px;
+  }
+
+
+ 
+.all-posts-heading{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+.card{
+    margin-left: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+}
+
+.list-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.list-group-item{
+    background-color: #232B2B;
+    color:whitesmoke;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    
+
+    
+    
+
+}
+
+
+
+
+.card-title{
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.profile-header {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.followers, .following {
+    text-align: center;
+}
+
+.profile-posts {
+    margin: 20px;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+}
+
+
+.like-button {
+    display: inline-block; /* Display on the same line as the "Like" count */
+    margin-right: 5px; /* Add some spacing between the button and "Like" count */
+    margin-bottom: 2px;
+    background-color: #232B2B;
+    border-color: white
+}
+
+/* Style the Like count */
+.like-count {
+    font-weight: bold; /* Make the count text bold, you can adjust styles as needed */
+}
+
+/* Style the Edit button */
+.edit-button {
+    display: block; /* Display on a new line */
+    background-color: #232B2B;
+    border-color: white
+}
